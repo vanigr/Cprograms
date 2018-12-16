@@ -1,6 +1,6 @@
 /*
 ***********************************************
-* Write a program to soflve the equation
+* Write a program to solve the equation
 *   4x^2+3x-2.
 * Read x as input
 * Input: 2
