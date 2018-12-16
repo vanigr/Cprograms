@@ -5,13 +5,14 @@
 *	- Multiplication
 *	- Division
 *	- Subtraction
+*   - Remainder
 ***********************************************
 */
 
 #include<stdio.h>
 void main() {
 
-	int n1,n2,sum,sub,mul,div ;
+	int n1,n2,sum,sub,mul,div, rem ;
 	
 	printf("enter n1: ") ;
 	scanf("%d",&n1) ;
@@ -23,11 +24,13 @@ void main() {
 	sub=n1-n2 ;
 	mul=n1*n2 ;
 	div=n1/n2 ;
+	rem = n1 % n2 ;
 	
 	printf("sum=%d\n",sum) ;
 	printf("sub=%d\n",sub) ;
 	printf("mul=%d\n",mul) ;
 	printf("div=%d\n",div) ;
+	printf("rem=%d\n",rem) ;
 
 }
 
